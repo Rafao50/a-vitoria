@@ -35,6 +35,7 @@
   "name":"a vitoria",
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"spr_penis","path":"sprites/spr_penis/spr_penis.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
