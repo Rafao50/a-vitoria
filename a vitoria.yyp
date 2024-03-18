@@ -36,6 +36,7 @@
   "resources":[
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"spr_penis","path":"sprites/spr_penis/spr_penis.yy",},},
+    {"id":{"name":"spr_azul","path":"sprites/spr_azul/spr_azul.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
