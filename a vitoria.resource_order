@@ -5,6 +5,10 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_class_bullet","order":1,"path":"objects/obj_class_bullet/obj_class_bullet.yy",},
+    {"name":"snd_music","order":4,"path":"sounds/snd_music/snd_music.yy",},
+    {"name":"snd_music2","order":3,"path":"sounds/snd_music2/snd_music2.yy",},
+    {"name":"snd_music3","order":2,"path":"sounds/snd_music3/snd_music3.yy",},
+    {"name":"snd_music4","order":1,"path":"sounds/snd_music4/snd_music4.yy",},
     {"name":"spr_bullet","order":1,"path":"sprites/spr_bullet/spr_bullet.yy",},
     {"name":"spr_enemy","order":5,"path":"sprites/spr_enemy/spr_enemy.yy",},
     {"name":"spr_fire","order":2,"path":"sprites/spr_fire/spr_fire.yy",},
