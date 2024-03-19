@@ -17,6 +17,8 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings":[
-    {"name":"spr_verde","order":1,"path":"sprites/spr_verde/spr_verde.yy",},
+    {"name":"spr_gun","order":2,"path":"sprites/spr_gun/spr_gun.yy",},
+    {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"spr_mira","order":3,"path":"sprites/spr_mira/spr_mira.yy",},
   ],
 }
