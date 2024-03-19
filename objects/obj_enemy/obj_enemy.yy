@@ -1,20 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_class_bullet",
+  "%Name":"obj_enemy",
   "eventList":[
     {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_class_bullet",
+  "name":"obj_enemy",
   "overriddenProperties":[],
   "parent":{
-    "name":"Bullet",
-    "path":"folders/Objects/Entity/Bullet.yy",
+    "name":"Enemy",
+    "path":"folders/Objects/Entity/Enemy.yy",
   },
-  "parentObjectId":{
-    "name":"obj_class_entity",
-    "path":"objects/obj_class_entity/obj_class_entity.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_enemy",
+    "path":"sprites/spr_enemy/spr_enemy.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
