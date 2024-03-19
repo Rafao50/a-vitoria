@@ -31,3 +31,5 @@ if (_movingright and _movingup) or (_movingleft and _movingup) or (_movingright 
 	spd = mxspd / 2
 else
 	spd = mxspd
+	
+flip_image(x < mouse_x)
