@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_enemy",
+  "%Name":"obj_meat_crawler_bulk",
   "eventList":[
-    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_enemy",
+  "name":"obj_meat_crawler_bulk",
   "overriddenProperties":[],
   "parent":{
     "name":"Enemy",
     "path":"folders/Objects/Entity/Enemy.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_class_enemy",
+    "path":"objects/obj_class_enemy/obj_class_enemy.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_enemy",
-    "path":"sprites/spr_enemy/spr_enemy.yy",
+    "name":"spr_enemy2",
+    "path":"sprites/spr_enemy2/spr_enemy2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

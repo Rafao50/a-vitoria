@@ -42,9 +42,11 @@
   "resources":[
     {"id":{"name":"obj_bullet","path":"objects/obj_bullet/obj_bullet.yy",},},
     {"id":{"name":"obj_class_bullet","path":"objects/obj_class_bullet/obj_class_bullet.yy",},},
+    {"id":{"name":"obj_class_enemy","path":"objects/obj_class_enemy/obj_class_enemy.yy",},},
     {"id":{"name":"obj_class_entity","path":"objects/obj_class_entity/obj_class_entity.yy",},},
     {"id":{"name":"obj_class_main","path":"objects/obj_class_main/obj_class_main.yy",},},
-    {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
+    {"id":{"name":"obj_meat_crawler","path":"objects/obj_meat_crawler/obj_meat_crawler.yy",},},
+    {"id":{"name":"obj_meat_crawler_bulk","path":"objects/obj_meat_crawler_bulk/obj_meat_crawler_bulk.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"snd_music","path":"sounds/snd_music/snd_music.yy",},},

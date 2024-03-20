@@ -8,3 +8,5 @@ global.input = {
 	down : ord("S"),
 	up : ord("W")
 }
+
+audio_play_sound(snd_music,1,true)
