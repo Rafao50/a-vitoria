@@ -1,3 +1,5 @@
+event_inherited()
+
 var _movingright = false
 var _movingleft = false
 var _movingdown = false
