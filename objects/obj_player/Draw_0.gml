@@ -1,5 +1,4 @@
-//draw_rectangle(x - 16, y - 16, x + 16, y + 16, 0)
-draw_self()
+event_inherited()
 
 var _pointer
 var _gunright = x < mouse_x ? true : false
