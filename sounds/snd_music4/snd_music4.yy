@@ -12,8 +12,8 @@
   "duration":113.00571,
   "name":"snd_music4",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Musics",
+    "path":"folders/Sounds/Musics.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
