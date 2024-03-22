@@ -11,7 +11,8 @@ pistol = {
 	attackspd : 5,
 	bulletspd : 10,
 	ammo : 0,
-	bullet : obj_bullet_pistol
+	bullet : obj_bullet_pistol,
+	sprite: spr_gun
 }
 
 shotgun = {
@@ -19,7 +20,8 @@ shotgun = {
 	attackspd : 3,
 	bulletspd : 10,
 	ammo : 5,
-	bullet : obj_bullet_shotgun
+	bullet : obj_bullet_shotgun,
+	sprite : spr_shotgun
 }
 
 machinegun = {
@@ -27,7 +29,8 @@ machinegun = {
 	attackspd : 10,
 	bulletspd : 10,
 	ammo : 20,
-	bullet : obj_bullet_machinegun
+	bullet : obj_bullet_machinegun,
+	sprite : spr_machinegun
 }
 
 rpg = {
@@ -35,7 +38,8 @@ rpg = {
 	attackspd : 20,
 	bulletspd : 10,
 	ammo : 2,
-	bullet : obj_bullet_rpg
+	bullet : obj_bullet_rpg,
+	sprite : spr_rpg
 }
 
 rayblade = {
@@ -43,7 +47,8 @@ rayblade = {
 	attackspd : 1,
 	bulletspd : 10,
 	ammo : 5,
-	bullet : obj_bullet_rayblade
+	bullet : obj_bullet_rayblade,
+	sprite : spr_rayblade
 }
 
 weapons = [pistol, shotgun, machinegun, rpg, rayblade]
