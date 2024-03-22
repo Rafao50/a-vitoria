@@ -40,7 +40,7 @@ if mouse_check_button_pressed(global.input.attack1)
 {
 	audio_play_sound(snd_shoot, 10, false, 0.1, 0, random_range(0.75,1.25))
 	layer_set_visible(layer_get_id("Effect_1"), true)
-	shoot(obj_bullet)
+	shoot()
 } else {
 	layer_set_visible(layer_get_id("Effect_1"), false)
 }
