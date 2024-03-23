@@ -2,7 +2,11 @@ event_inherited()
 
 if !morto
 {
-	mp_potential_step(obj_player.x,obj_player.y,spd, true)
+	if object_index != obj_slime
+		mp_potential_step(obj_player.x,obj_player.y,spd, true)
+	else 
+		if image_index > 2
+			mp_potential_step(obj_player.x,obj_player.y,spd, true)
 	is_moving = true
 	flip_image(x > obj_player.x)
 	taken_damage()
