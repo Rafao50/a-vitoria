@@ -18,6 +18,7 @@
     {"name":"obj_class_enemy","order":1,"path":"objects/obj_class_enemy/obj_class_enemy.yy",},
     {"name":"obj_meat_crawler_bulk","order":2,"path":"objects/obj_meat_crawler_bulk/obj_meat_crawler_bulk.yy",},
     {"name":"obj_slime","order":3,"path":"objects/obj_slime/obj_slime.yy",},
+    {"name":"obj_directorwave","order":1,"path":"objects/obj_directorwave/obj_directorwave.yy",},
     {"name":"snd_finalwave","order":1,"path":"sounds/snd_finalwave/snd_finalwave.yy",},
     {"name":"snd_music2","order":1,"path":"sounds/snd_music2/snd_music2.yy",},
     {"name":"snd_music3","order":2,"path":"sounds/snd_music3/snd_music3.yy",},
@@ -30,9 +31,9 @@
     {"name":"spr_floor","order":2,"path":"sprites/spr_floor/spr_floor.yy",},
     {"name":"spr_leite","order":1,"path":"sprites/spr_leite/spr_leite.yy",},
     {"name":"spr_machinegun","order":2,"path":"sprites/spr_machinegun/spr_machinegun.yy",},
+    {"name":"spr_rayblade","order":3,"path":"sprites/spr_rayblade/spr_rayblade.yy",},
     {"name":"spr_rpg","order":4,"path":"sprites/spr_rpg/spr_rpg.yy",},
     {"name":"spr_shotgun","order":5,"path":"sprites/spr_shotgun/spr_shotgun.yy",},
     {"name":"spr_slime","order":3,"path":"sprites/spr_slime/spr_slime.yy",},
-    {"name":"spr_rayblade","order":3,"path":"sprites/spr_rayblade/spr_rayblade.yy",},
   ],
 }

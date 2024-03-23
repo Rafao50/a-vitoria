@@ -3,8 +3,12 @@ attack = 0
 defense = 0
 spd = 0
 scale = 1
+maxlife = life
 
 morto = false
+
+is_moving = false
+_dir = 1
 
 pistol = {
 	damage : 5,
@@ -65,4 +69,26 @@ function death()
 {
 	morto = true
 	draw_sprite(spr_blood, 0, x, y)
+}
+
+function animation_walk(_angle)
+{
+	if is_moving
+	{
+		if _dir = 1
+		{
+			image_angle--;
+			if image_angle = -_angle
+			{
+				_dir = -1
+			}
+		} else {
+			image_angle++;	
+			if image_angle = _angle
+			{
+				_dir = 1
+			}
+		}
+	} else 
+		image_angle = 0	
 }
