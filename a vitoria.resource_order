@@ -41,6 +41,5 @@
     {"name":"spr_rpg","order":4,"path":"sprites/spr_rpg/spr_rpg.yy",},
     {"name":"spr_shotgun","order":5,"path":"sprites/spr_shotgun/spr_shotgun.yy",},
     {"name":"spr_slime","order":3,"path":"sprites/spr_slime/spr_slime.yy",},
-    {"name":"spr_logo","order":7,"path":"sprites/spr_logo/spr_logo.yy",},
   ],
 }

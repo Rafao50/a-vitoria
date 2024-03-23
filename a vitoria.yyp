@@ -90,7 +90,6 @@
     {"id":{"name":"spr_rpg","path":"sprites/spr_rpg/spr_rpg.yy",},},
     {"id":{"name":"spr_shotgun","path":"sprites/spr_shotgun/spr_shotgun.yy",},},
     {"id":{"name":"spr_slime","path":"sprites/spr_slime/spr_slime.yy",},},
-    {"id":{"name":"spr_logo","path":"sprites/spr_logo/spr_logo.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
