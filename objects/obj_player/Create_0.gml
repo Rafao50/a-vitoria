@@ -5,7 +5,7 @@ attack = 5
 defense = 5
 mxspd = 2
 spd = mxspd
-weapon_equiped = weapons[4]
+weapon_equiped = weapons[0]
 
 function shoot()
 {

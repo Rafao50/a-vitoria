@@ -12,7 +12,7 @@ pistol = {
 	bulletspd : 10,
 	ammo : 0,
 	bullet : obj_bullet_pistol,
-	sprite: spr_gun
+	sprite: spr_pistol
 }
 
 shotgun = {
