@@ -3,12 +3,14 @@ attack = 0
 defense = 0
 spd = 0
 scale = 1
-maxlife = life
+direction_walk = 1
 
-morto = false
-
+rotate_death = true
+is_death = false
+is_taken_hit = false
 is_moving = false
-_dir = 1
+
+maxlife = life
 
 pistol = {
 	damage : 5,
@@ -67,26 +69,32 @@ function flip_image(_cond)
 
 function death()
 {
-	morto = true
-	draw_sprite(spr_blood, 0, x, y)
+	is_death = true
+}
+
+function draw_shadows()
+{
+	draw_set_color(c_black)
+	draw_set_alpha(0.15)
+	draw_ellipse(x - sprite_get_height(sprite_index) / 2, y + 8*scale  , x + sprite_get_height(sprite_index) / 2, y + 20*scale, 0)	
 }
 
 function animation_walk(_angle)
 {
 	if is_moving
 	{
-		if _dir = 1
+		if direction_walk = 1
 		{
 			image_angle--;
 			if image_angle = -_angle
 			{
-				_dir = -1
+				direction_walk = -1
 			}
 		} else {
 			image_angle++;	
 			if image_angle = _angle
 			{
-				_dir = 1
+				direction_walk = 1
 			}
 		}
 	} else 

@@ -26,10 +26,12 @@ function taken_damage()
 		var _en = instance_find(obj_class_enemy,_i)
 		if place_meeting(x,y,_en)
 		{
-			if !_en.morto
+			if !_en.is_death and !is_taken_hit 
 			{
-				alarm[0] = 30
+				self.life-=(obj_class_enemy.attack-(obj_class_enemy.defense*0.5)) + 1
+				alarm[0] = 15
 				self.image_blend = c_red
+				is_taken_hit = true
 			}
 		}
 	}	

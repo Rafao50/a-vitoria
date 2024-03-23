@@ -1,6 +1,6 @@
 event_inherited()
 
-if !morto
+if !is_death
 {
 	if object_index != obj_slime
 		mp_potential_step(obj_player.x,obj_player.y,spd, true)
