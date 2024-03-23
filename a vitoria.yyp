@@ -35,7 +35,10 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "IncludedFiles":[],
+  "IncludedFiles":[
+    {"$GMIncludedFile":"","%Name":"Musica irada de fundo (segunda forma).mp3.mp4","CopyToMask":-1,"filePath":"datafiles","name":"Musica irada de fundo (segunda forma).mp3.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"Musica irada de fundo (terceira forma).mp3.mp4","CopyToMask":-1,"filePath":"datafiles","name":"Musica irada de fundo (terceira forma).mp3.mp4","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+  ],
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
