@@ -5,40 +5,32 @@ var _movingleft = false
 var _movingdown = false
 var _movingup = false
 
-
-is_moving = false
 if keyboard_check(global.input.right)
 {
 	x+=spd
 	_movingright = true
-	is_moving = true
 }
 	
 else if keyboard_check(global.input.left)
 {
 	x-=spd
 	_movingleft = true
-	is_moving = true
 }
 	
 if keyboard_check(global.input.down)
 {
 	y+=spd
 	_movingdown = true
-	is_moving = true
 }
 	
 else if keyboard_check(global.input.up)
 {
 	y-=spd
 	_movingup = true
-	is_moving = true
 }
 
 if (_movingright and _movingup) or (_movingleft and _movingup) or (_movingright and _movingdown) or (_movingleft and _movingdown)
-{
 	spd = mxspd / 2
-}
 else
 	spd = mxspd
 	
@@ -52,5 +44,3 @@ if mouse_check_button_pressed(global.input.attack1)
 } else {
 	layer_set_visible(layer_get_id("Effect_1"), false)
 }
-
-taken_damage()
