@@ -1,2 +1,2 @@
 wave_current = 0
-enemy_count = 4
+enemy_count = 1

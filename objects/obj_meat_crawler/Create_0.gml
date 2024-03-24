@@ -1,7 +1,6 @@
 event_inherited()
 
-life = 7;
-attack = 7;
-defense = 5;
+life = 5;
+attack = 1;
+defense = 2;
 spd = 1;
-maxlife = life

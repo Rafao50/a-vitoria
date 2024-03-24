@@ -5,8 +5,6 @@ attack = 5
 defense = 5
 mxspd = 2
 spd = mxspd
-maxlife = life
-
 weapon_equiped = weapons[0]
 
 function shoot()
@@ -17,22 +15,4 @@ function shoot()
 	_b.image_xscale*=0.5
 	_b.image_yscale*=0.5
 	_b.image_angle = _b.direction
-}
-
-function taken_damage()
-{
-	for(var _i = 0; _i < instance_number(obj_class_enemy); _i++)
-	{
-		var _en = instance_find(obj_class_enemy,_i)
-		if place_meeting(x,y,_en)
-		{
-			if !_en.is_death and !is_taken_hit 
-			{
-				self.life-=(obj_class_enemy.attack-(obj_class_enemy.defense*0.5)) + 1
-				alarm[0] = 15
-				self.image_blend = c_red
-				is_taken_hit = true
-			}
-		}
-	}	
 }
