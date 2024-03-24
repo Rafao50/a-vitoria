@@ -11,9 +11,17 @@ if !is_death
 	flip_image(x > obj_player.x)
 	taken_damage()
 } else {
-	image_alpha-=0.005;
-	if image_alpha == 0
+	if image_alpha == 1
+		instance_create_depth(x, y, 0, obj_emmiter_blood)
+
+	if image_alpha > 0
+		image_alpha-=0.005
+		
+	else
+	{
 		instance_destroy(self)
+	}
+
 }
 
 

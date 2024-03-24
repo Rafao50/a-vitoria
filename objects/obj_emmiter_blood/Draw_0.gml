@@ -1,1 +1,1 @@
-//draw_text(x, y, "Oi")
+draw_sprite_ext(spr_blood, random_blood, x, y, 2, 2, 0, c_white, life_time/100)
